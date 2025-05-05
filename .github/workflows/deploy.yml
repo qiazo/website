@@ -96,7 +96,7 @@ jobs:
       - build-sentinel
     steps:
       - name: deploy to ecs
-        uses: appleboy/ssh-action@v1.2.0
+        uses: appleboy/ssh-action@v1.2.2
         env:
           INTERNAL_REGISTRY_SERVER: ${{ secrets.INTERNAL_REGISTRY_SERVER }}
           VERSION_SHORT: ${{ needs.get-version.outputs.version_short }}
