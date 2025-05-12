@@ -48,15 +48,15 @@
     "tsparticles": "^3.8.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.8.0",
-    "@commitlint/config-conventional": "^19.8.0",
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
     "@tailwindcss/forms": "^0.5.10",
     "@tailwindcss/line-clamp": "^0.4.4",
     "@tailwindcss/typography": "^0.5.16",
     "@types/js-cookie": "^3.0.6",
     "@types/lodash": "^4.17.16",
     "@types/ms": "^2.1.0",
-    "@types/node": "^18.19.92",
+    "@types/node": "^18.19.100",
     "@types/react": "^18.3.20",
     "@types/react-dom": "^18.3.6",
     "@types/rss": "^0.0.32",
@@ -69,7 +69,7 @@
     "prettier": "^3.5.3",
     "prettier-plugin-tailwindcss": "^0.6.11",
     "prop-types": "^15.8.1",
-    "sort-package-json": "^3.2.0",
+    "sort-package-json": "^3.2.1",
     "tailwindcss": "^3.4.17",
     "typescript": "5.8.3"
   },
