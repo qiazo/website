@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@next/third-parties':
-        specifier: ^14.2.28
-        version: 14.2.28(next@14.2.28(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
+        specifier: ^15.3.4
+        version: 15.3.4(next@14.2.28(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
       '@primer/octicons-react':
         specifier: ^19.15.2
         version: 19.15.2(react@18.3.1)
@@ -862,11 +862,11 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@next/third-parties@14.2.28':
-    resolution: {integrity: sha512-EYNzidIV5IP3p27SMltjjkJ4FH0Tp1hgAasCrVAPfRpimNdskadFkpoBN4K/dHmxFBPeMD62IF3JwWwk7K5Mcg==}
+  '@next/third-parties@15.3.4':
+    resolution: {integrity: sha512-jOvAsd0Yoq/eZ3/M+X/y/539/M6Up2xPE/aOr23CGXKinhfK2kscGP4uhtwlS0FZyHvU7ud9HTTt7G3D5G5BkA==}
     peerDependencies:
-      next: ^13.0.0 || ^14.0.0
-      react: ^18.2.0
+      next: ^13.0.0 || ^14.0.0 || ^15.0.0
+      react: ^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -5837,7 +5837,7 @@ snapshots:
   '@next/swc-win32-x64-msvc@14.3.0-canary.43':
     optional: true
 
-  '@next/third-parties@14.2.28(next@14.2.28(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)':
+  '@next/third-parties@15.3.4(next@14.2.28(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)':
     dependencies:
       next: 14.2.28(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react: 18.3.1
