@@ -10,7 +10,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@next/third-parties": "^14.2.28",
+    "@next/third-parties": "^15.4.1",
     "@primer/octicons-react": "^19.15.2",
     "@tsparticles/engine": "^3.8.1",
     "@tsparticles/react": "^3.0.0",
