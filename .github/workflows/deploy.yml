@@ -6,8 +6,8 @@ on:
       - 'v[0-9]+.[0-9]+.[0-9]+'
 
 env:
-  WEB_CONTAINER_NAME: insco/websites
-  SENTINEL_CONTAINER_NAME: insco/sentinel
+  WEB_CONTAINER_NAME: qiazo/websites
+  SENTINEL_CONTAINER_NAME: qiazo/sentinel
 
 jobs:
   get-version:
@@ -69,17 +69,12 @@ jobs:
       - name: Configure cert
         run: |
           mkdir ./certs
-          # insco.cn
-          echo "$INSCO_CERT_KEY" | base64 --decode > ./certs/insco.cn.key
-          echo "$INSCO_CERT_PEM" | base64 --decode > ./certs/insco.cn.pem
-          # insco.com.cn
-          echo "$INSCO_COM_CERT_KEY" | base64 --decode > ./certs/insco.com.cn.key
-          echo "$INSCO_COM_CERT_PEM" | base64 --decode > ./certs/insco.com.cn.pem
+          # qiazo.cn
+          echo "$QIAZO_CERT_KEY" | base64 --decode > ./certs/qiazo.cn.key
+          echo "$QIAZO_CERT_PEM" | base64 --decode > ./certs/qiazo.cn.pem
         env:
-          INSCO_CERT_KEY: ${{ secrets.INSCO_CERT_KEY }}
-          INSCO_CERT_PEM: ${{ secrets.INSCO_CERT_PEM }}
-          INSCO_COM_CERT_KEY: ${{ secrets.INSCO_COM_CERT_KEY }}
-          INSCO_COM_CERT_PEM: ${{ secrets.INSCO_COM_CERT_PEM }}
+          QIAZO_CERT_KEY: ${{ secrets.QIAZO_CERT_KEY }}
+          QIAZO_CERT_PEM: ${{ secrets.QIAZO_CERT_PEM }}
 
       - name: Docker build & push
         run: |
@@ -153,7 +148,7 @@ jobs:
         with:
           name: ${{ needs.get-version.outputs.version }}
           tag_name: ${{ needs.get-version.outputs.version }}
-          token: ${{ secrets.INSCO_RELEASE_TOKEN }}
+          token: ${{ secrets.QIAZO_RELEASE_TOKEN }}
 
       - name: Clean up
         if: ${{ always() }}

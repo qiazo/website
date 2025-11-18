@@ -7,9 +7,8 @@ const nextConfig = {
   swcMinify: true,
   images: {
     remotePatterns: [
-      { hostname: "insco.io" },
-      { hostname: "insco.cn" },
-      { hostname: "insco.com.cn" },
+      { hostname: "qiazo.com" },
+      { hostname: "qiazo.cn" },
       { hostname: "lh3.googleusercontent.com" },
     ],
     unoptimized: true,

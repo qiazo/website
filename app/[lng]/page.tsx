@@ -9,7 +9,6 @@ import Image from "next/image";
 import { RiCommunityLine } from "react-icons/ri";
 import Card from "@/components/home/card";
 import {
-  Github,
   AppStore,
   GooglePlay,
   MicrosoftStore,
@@ -84,7 +83,7 @@ export default function Home({
       demo: (
         <MicrosoftStore className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
       ),
-      url: "https://apps.microsoft.com/search/publisher?name=Insco",
+      url: "https://apps.microsoft.com/search/publisher?name=Qiazo",
     },
     {
       title: "Amazon Appstore",
@@ -92,7 +91,7 @@ export default function Home({
       demo: (
         <AmazonAppStore className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
       ),
-      url: "https://www.amazon.com/s?i=mobile-apps&rh=p_4:青岛因斯科网络科技有限公司&search-type=ss",
+      url: "https://www.amazon.com/s?i=mobile-apps&rh=p_4:青岛巧造网络科技有限公司&search-type=ss",
     },
     {
       title: "Snap Store",
@@ -100,7 +99,7 @@ export default function Home({
       demo: (
         <SnapStore className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
       ),
-      url: "https://snapcraft.io/publisher/insco",
+      url: "https://snapcraft.io/publisher/qiazo",
     },
     {
       title: "Flathub",
@@ -108,7 +107,7 @@ export default function Home({
       demo: (
         <Flathub className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
       ),
-      url: "https://flathub.org/apps/collection/developer/Insco/1",
+      url: "https://flathub.org/apps/collection/developer/Qiazo/1",
     },
   ];
 
@@ -164,7 +163,7 @@ export default function Home({
         >
           {/*<Link*/}
           {/*  className="flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-5 py-2 text-sm text-gray-600 shadow-md transition-colors hover:border-gray-800 dark:bg-black dark:text-white/80"*/}
-          {/*  href="https://github.com/insco-inc"*/}
+          {/*  href="https://github.com/qiazo"*/}
           {/*  target="_blank"*/}
           {/*  rel="noopener noreferrer"*/}
           {/*>*/}

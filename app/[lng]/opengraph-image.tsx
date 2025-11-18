@@ -2,7 +2,7 @@
 import { ImageResponse } from "next/og";
 import { domain } from "@/constants";
 
-const keywords: string[] = ["因斯科", "Insco"];
+const keywords: string[] = ["巧造", "Qiazo"];
 export const runtime = "edge";
 export const alt = keywords.join();
 export const contentType = "image/png";
