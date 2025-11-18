@@ -138,7 +138,7 @@ export default function Home({
           style={{ animationDelay: "0.15s", animationFillMode: "forwards" }}
         >
           <Balancer>{th("title")}</Balancer>
-          <AiOutlineTrademarkCircle className="inline-block align-top text-[22px] text-[#ff7979]" />
+          {/*<AiOutlineTrademarkCircle className="inline-block align-top text-[22px] text-[#ff7979]" />*/}
         </h1>
         <p
           className="mt-6 animate-fade-up text-center text-[#ff7979] opacity-0 md:text-xl"
