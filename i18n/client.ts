@@ -68,7 +68,7 @@ export function useTranslation<
       if (cookies[cacheLngKey] === lng) return;
       setCookie(cacheLngKey, lng, { path: "/" });
       // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [lng, cookies.__insco_blog_lng__]);
+    }, [lng, cookies.__qiazo_blog_lng__]);
   }
   return ret;
 }

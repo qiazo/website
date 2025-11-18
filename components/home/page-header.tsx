@@ -14,7 +14,7 @@ export default function PageHeader({
       <Link href="/">
         <Image
           src={"/logo.png"}
-          alt="Insco logo"
+          alt="Qiazo logo"
           className="h-10 w-10 rounded-full"
           width={20}
           height={20}

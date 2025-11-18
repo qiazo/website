@@ -1,17 +1,17 @@
-export const cacheLngKey: string = "__insco_blog_lng__";
-export const cacheThemeKey: string = "__insco_blog_theme__";
-export const cacheRealSourceKey: string = "__insco_blog_source__";
+export const cacheLngKey: string = "__qiazo_blog_lng__";
+export const cacheThemeKey: string = "__qiazo_blog_theme__";
+export const cacheRealSourceKey: string = "__qiazo_blog_source__";
 
 export const domain =
   process.env.NODE_ENV === "production"
-    ? "https://www.insco.io"
+    ? "https://qiazo.com"
     : "http://localhost:3000";
 
 export const sitemapUrls = ["apps", "support"];
 
 export const manifest = {
-  name: "Insco",
-  short_name: "Insco",
+  name: "Qiazo",
+  short_name: "Qiazo",
   description: "Make technology simpler and experience more perfect.",
   start_url: "/",
   display: "standalone",

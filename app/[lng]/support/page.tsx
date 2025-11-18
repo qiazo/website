@@ -47,7 +47,7 @@ export default function Support({
       demo: (
         <MdEmail className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
       ),
-      url: "mailto:support@insco.io",
+      url: "mailto:support@qiazo.com",
       large: false,
     },
     {
@@ -56,7 +56,7 @@ export default function Support({
       demo: (
         <CommentDiscussionIcon className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
       ),
-      url: "https://github.com/orgs/insco-inc/discussions",
+      url: "https://github.com/orgs/qiazo/discussions",
       large: false,
     },
   ];
