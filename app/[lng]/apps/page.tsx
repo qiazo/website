@@ -46,13 +46,13 @@ export default function Support({
       demo: (
         <Image
           className="rounded-full shadow-lg shadow-black/[0.03]"
-          src="https://www.picguard.app/logo.png"
+          src="https://picguard.app/logo.png"
           width={96}
           height={96}
           alt={t("pg-app-name")}
         />
       ),
-      url: "https://www.picguard.app",
+      url: "https://picguard.app",
       large: false,
     },
     {
@@ -61,45 +61,45 @@ export default function Support({
       demo: (
         <Image
           className="rounded-full shadow-lg shadow-black/[0.03]"
-          src="https://www.fafarunner.com/logo.jpg"
+          src="https://fafarunner.com/logo.jpg"
           width={96}
           height={96}
           alt="FaFa Runner,发发跑酷"
         />
       ),
-      url: "https://www.fafarunner.com",
+      url: "https://fafarunner.com",
       large: false,
     },
-    {
-      title: t("aty-app-name"),
-      description: t("aty-app-description"),
-      demo: (
-        <Image
-          className="rounded-full shadow-lg shadow-black/[0.03]"
-          src="https://www.artifylabs.org/logo.png"
-          width={96}
-          height={96}
-          alt={t("aty-app-name")}
-        />
-      ),
-      url: "https://www.artifylabs.org",
-      large: false,
-    },
-    {
-      title: t("kty-app-name"),
-      description: t("kty-app-description"),
-      demo: (
-        <Image
-          className="rounded-full shadow-lg shadow-black/[0.03]"
-          src="https://www.kitifylabs.com/logo.png"
-          width={96}
-          height={96}
-          alt={t("kty-app-name")}
-        />
-      ),
-      url: "https://www.kitifylabs.com",
-      large: false,
-    },
+    // {
+    //   title: t("aty-app-name"),
+    //   description: t("aty-app-description"),
+    //   demo: (
+    //     <Image
+    //       className="rounded-full shadow-lg shadow-black/[0.03]"
+    //       src="https://www.artifylabs.org/logo.png"
+    //       width={96}
+    //       height={96}
+    //       alt={t("aty-app-name")}
+    //     />
+    //   ),
+    //   url: "https://www.artifylabs.org",
+    //   large: false,
+    // },
+    // {
+    //   title: t("kty-app-name"),
+    //   description: t("kty-app-description"),
+    //   demo: (
+    //     <Image
+    //       className="rounded-full shadow-lg shadow-black/[0.03]"
+    //       src="https://www.kitifylabs.com/logo.png"
+    //       width={96}
+    //       height={96}
+    //       alt={t("kty-app-name")}
+    //     />
+    //   ),
+    //   url: "https://www.kitifylabs.com",
+    //   large: false,
+    // },
   ];
 
   return (
