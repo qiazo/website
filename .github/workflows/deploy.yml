@@ -144,7 +144,7 @@ jobs:
             docker compose -f /docker-compose/docker-compose-${{ needs.get-version.outputs.version_short }}.yml up -d
 
       - name: Release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           name: ${{ needs.get-version.outputs.version }}
           tag_name: ${{ needs.get-version.outputs.version }}
