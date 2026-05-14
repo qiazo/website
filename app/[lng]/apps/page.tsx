@@ -46,13 +46,13 @@ export default function Support({
       demo: (
         <Image
           className="rounded-full shadow-lg shadow-black/[0.03]"
-          src="https://picguard.app/logo.png"
+          src="https://picguard.org/logo.png"
           width={96}
           height={96}
           alt={t("pg-app-name")}
         />
       ),
-      url: "https://picguard.app",
+      url: "https://picguard.org",
       large: false,
     },
     {
