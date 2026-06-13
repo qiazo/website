@@ -83,7 +83,7 @@ export default function Home({
       demo: (
         <MicrosoftStore className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
       ),
-      url: "https://apps.microsoft.com/search/publisher?name=Qiazo",
+      url: "https://apps.microsoft.com/search/publisher?name=Insco",
     },
     {
       title: "Amazon Appstore",
@@ -91,7 +91,7 @@ export default function Home({
       demo: (
         <AmazonAppStore className="h-24 w-24 text-gray-600 transition-all dark:text-white/80" />
       ),
-      url: "https://www.amazon.com/s?i=mobile-apps&rh=p_4:青岛巧造网络科技有限公司&search-type=ss",
+      url: "https://www.amazon.com/s?i=mobile-apps&rh=p_4:青岛因斯科网络科技有限公司&search-type=ss",
     },
     {
       title: "Snap Store",
